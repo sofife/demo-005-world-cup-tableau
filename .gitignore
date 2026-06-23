@@ -1,0 +1,14 @@
+# Secrets — never commit credentials
+*.env
+secrets.env
+**/secrets.env
+
+# Tableau Hyper extracts (regenerated locally)
+*.hyper
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/

@@ -1,0 +1,22 @@
+{
+  "note": "16 host venues for the 2026 FIFA World Cup (USA, Mexico, Canada). Enriched in Cowork prep with precise stadium latitude/longitude so the Tableau map plots each stadium exactly rather than on a city centroid. Source fields (city, stadium, capacity, country) carried from prep/worldcup2026.json.",
+  "fields": ["venue_id", "stadium", "city", "country", "capacity", "lat", "lon"],
+  "venues": [
+    { "venue_id": "dallas",        "stadium": "AT&T Stadium (Dallas Stadium)",                       "city": "Dallas (Arlington, TX)",                 "country": "USA",    "capacity": 94000, "lat": 32.7473, "lon": -97.0945 },
+    { "venue_id": "mexico-city",   "stadium": "Estadio Azteca (Mexico City Stadium)",                "city": "Mexico City",                            "country": "Mexico", "capacity": 83000, "lat": 19.3029, "lon": -99.1505 },
+    { "venue_id": "new-york-nj",   "stadium": "MetLife Stadium (New York New Jersey Stadium)",       "city": "New York/New Jersey (East Rutherford, NJ)", "country": "USA", "capacity": 82500, "lat": 40.8135, "lon": -74.0745 },
+    { "venue_id": "atlanta",       "stadium": "Mercedes-Benz Stadium (Atlanta Stadium)",            "city": "Atlanta",                                "country": "USA",    "capacity": 75000, "lat": 33.7554, "lon": -84.4008 },
+    { "venue_id": "kansas-city",   "stadium": "Arrowhead Stadium (Kansas City Stadium)",            "city": "Kansas City",                            "country": "USA",    "capacity": 73000, "lat": 39.0489, "lon": -94.4839 },
+    { "venue_id": "houston",       "stadium": "NRG Stadium (Houston Stadium)",                      "city": "Houston",                                "country": "USA",    "capacity": 72000, "lat": 29.6847, "lon": -95.4107 },
+    { "venue_id": "bay-area",      "stadium": "Levi's Stadium (San Francisco Bay Area Stadium)",    "city": "San Francisco Bay Area (Santa Clara, CA)", "country": "USA",  "capacity": 71000, "lat": 37.4030, "lon": -121.9698 },
+    { "venue_id": "los-angeles",   "stadium": "SoFi Stadium (Los Angeles Stadium)",                 "city": "Los Angeles (Inglewood, CA)",            "country": "USA",    "capacity": 70000, "lat": 33.9535, "lon": -118.3392 },
+    { "venue_id": "philadelphia",  "stadium": "Lincoln Financial Field (Philadelphia Stadium)",     "city": "Philadelphia",                           "country": "USA",    "capacity": 69000, "lat": 39.9008, "lon": -75.1675 },
+    { "venue_id": "seattle",       "stadium": "Lumen Field (Seattle Stadium)",                      "city": "Seattle",                                "country": "USA",    "capacity": 69000, "lat": 47.5952, "lon": -122.3316 },
+    { "venue_id": "boston",        "stadium": "Gillette Stadium (Boston Stadium)",                  "city": "Boston (Foxborough, MA)",                "country": "USA",    "capacity": 65000, "lat": 42.0909, "lon": -71.2643 },
+    { "venue_id": "miami",         "stadium": "Hard Rock Stadium (Miami Stadium)",                  "city": "Miami (Miami Gardens, FL)",              "country": "USA",    "capacity": 65000, "lat": 25.9580, "lon": -80.2389 },
+    { "venue_id": "vancouver",     "stadium": "BC Place (BC Place Vancouver)",                      "city": "Vancouver",                              "country": "Canada", "capacity": 54000, "lat": 49.2768, "lon": -123.1119 },
+    { "venue_id": "monterrey",     "stadium": "Estadio BBVA (Estadio Monterrey)",                   "city": "Monterrey (Guadalupe)",                  "country": "Mexico", "capacity": 53500, "lat": 25.6692, "lon": -100.2444 },
+    { "venue_id": "guadalajara",   "stadium": "Estadio Akron (Estadio Guadalajara)",                "city": "Guadalajara (Zapopan)",                  "country": "Mexico", "capacity": 48000, "lat": 20.6816, "lon": -103.4630 },
+    { "venue_id": "toronto",       "stadium": "BMO Field (Toronto Stadium)",                        "city": "Toronto",                                "country": "Canada", "capacity": 45000, "lat": 43.6332, "lon": -79.4185 }
+  ]
+}

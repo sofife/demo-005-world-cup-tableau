@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/prep/index.html" },
+    { "source": "/worldcup2026.json", "destination": "/prep/worldcup2026.json" },
+    { "source": "/venues.json", "destination": "/prep/venues.json" }
+  ]
+}

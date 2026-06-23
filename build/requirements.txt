@@ -1,0 +1,4 @@
+tableauserverclient>=0.30
+pantab>=5.0
+pandas>=2.0
+python-dotenv>=1.0
