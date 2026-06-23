@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "name": "2026 FIFA World Cup",
+    "hosts": ["United States", "Canada", "Mexico"],
+    "dates": { "start": "2026-06-11", "end": "2026-07-19" },
+    "format": "48 teams, 12 groups of 4. Top two per group plus 8 best third-placed teams advance to a Round of 32.",
+    "asOf": "2026-06-22",
+    "final": { "venue": "MetLife Stadium (New York New Jersey Stadium)", "date": "2026-07-19" },
+    "source": "ESPN full fixture list + CBS Sports results; group results as of 2026-06-22 (Matchday 2 in progress)"
+  },
+  "venues": [
+    { "city": "Dallas (Arlington, TX)", "stadium": "AT&T Stadium (Dallas Stadium)", "capacity": 94000, "country": "USA" },
+    { "city": "Mexico City", "stadium": "Estadio Azteca (Mexico City Stadium)", "capacity": 83000, "country": "Mexico" },
+    { "city": "New York/New Jersey (East Rutherford, NJ)", "stadium": "MetLife Stadium (New York New Jersey Stadium)", "capacity": 82500, "country": "USA" },
+    { "city": "Atlanta", "stadium": "Mercedes-Benz Stadium (Atlanta Stadium)", "capacity": 75000, "country": "USA" },
+    { "city": "Kansas City", "stadium": "Arrowhead Stadium (Kansas City Stadium)", "capacity": 73000, "country": "USA" },
+    { "city": "Houston", "stadium": "NRG Stadium (Houston Stadium)", "capacity": 72000, "country": "USA" },
+    { "city": "San Francisco Bay Area (Santa Clara, CA)", "stadium": "Levi's Stadium (San Francisco Bay Area Stadium)", "capacity": 71000, "country": "USA" },
+    { "city": "Los Angeles (Inglewood, CA)", "stadium": "SoFi Stadium (Los Angeles Stadium)", "capacity": 70000, "country": "USA" },
+    { "city": "Philadelphia", "stadium": "Lincoln Financial Field (Philadelphia Stadium)", "capacity": 69000, "country": "USA" },
+    { "city": "Seattle", "stadium": "Lumen Field (Seattle Stadium)", "capacity": 69000, "country": "USA" },
+    { "city": "Boston (Foxborough, MA)", "stadium": "Gillette Stadium (Boston Stadium)", "capacity": 65000, "country": "USA" },
+    { "city": "Miami (Miami Gardens, FL)", "stadium": "Hard Rock Stadium (Miami Stadium)", "capacity": 65000, "country": "USA" },
+    { "city": "Vancouver", "stadium": "BC Place (BC Place Vancouver)", "capacity": 54000, "country": "Canada" },
+    { "city": "Monterrey (Guadalupe)", "stadium": "Estadio BBVA (Estadio Monterrey)", "capacity": 53500, "country": "Mexico" },
+    { "city": "Guadalajara (Zapopan)", "stadium": "Estadio Akron (Estadio Guadalajara)", "capacity": 48000, "country": "Mexico" },
+    { "city": "Toronto", "stadium": "BMO Field (Toronto Stadium)", "capacity": 45000, "country": "Canada" }
+  ],
+  "groups": {
+    "A": { "teams": ["Mexico", "South Korea", "Czechia", "South Africa"],
+      "matches": [
+        { "md": 1, "date": "2026-06-11", "home": "Mexico", "away": "South Africa", "hs": 2, "as": 0 },
+        { "md": 1, "date": "2026-06-11", "home": "South Korea", "away": "Czechia", "hs": 2, "as": 1 },
+        { "md": 2, "date": "2026-06-18", "home": "Czechia", "away": "South Africa", "hs": 1, "as": 1 },
+        { "md": 2, "date": "2026-06-18", "home": "Mexico", "away": "South Korea", "hs": 1, "as": 0 },
+        { "md": 3, "date": "2026-06-24", "home": "Czechia", "away": "Mexico", "hs": null, "as": null },
+        { "md": 3, "date": "2026-06-24", "home": "South Africa", "away": "South Korea", "hs": null, "as": null }
+      ]
+    },
+    "B": { "teams": ["Canada", "Switzerland", "Bosnia and Herzegovina", "Qatar"],
+      "matches": [
+        { "md": 1, "date": "2026-06-12", "home": "Canada", "away": "Bosnia and Herzegovina", "hs": 1, "as": 1 },
+        { "md": 1, "date": "2026-06-13", "home": "Qatar", "away": "Switzerland", "hs": 1, "as": 1 },
+        { "md": 2, "date": "2026-06-18", "home": "Switzerland", "away": "Bosnia and Herzegovina", "hs": 4, "as": 1 },
+        { "md": 2, "date": "2026-06-18", "home": "Canada", "away": "Qatar", "hs": 6, "as": 0 },
+        { "md": 3, "date": "2026-06-24", "home": "Switzerland", "away": "Canada", "hs": null, "as": null },
+        { "md": 3, "date": "2026-06-24", "home": "Bosnia and Herzegovina", "away": "Qatar", "hs": null, "as": null }
+      ]
+    },
+    "C": { "teams": ["Brazil", "Morocco", "Scotland", "Haiti"],
+      "matches": [
+        { "md": 1, "date": "2026-06-13", "home": "Brazil", "away": "Morocco", "hs": 1, "as": 1 },
+        { "md": 1, "date": "2026-06-13", "home": "Haiti", "away": "Scotland", "hs": 0, "as": 1 },
+        { "md": 2, "date": "2026-06-19", "home": "Scotland", "away": "Morocco", "hs": 0, "as": 1 },
+        { "md": 2, "date": "2026-06-19", "home": "Brazil", "away": "Haiti", "hs": 3, "as": 0 },
+        { "md": 3, "date": "2026-06-24", "home": "Scotland", "away": "Brazil", "hs": null, "as": null },
+        { "md": 3, "date": "2026-06-24", "home": "Morocco", "away": "Haiti", "hs": null, "as": null }
+      ]
+    },
+    "D": { "teams": ["USA", "Australia", "Paraguay", "Türkiye"],
+      "matches": [
+        { "md": 1, "date": "2026-06-12", "home": "USA", "away": "Paraguay", "hs": 4, "as": 1 },
+        { "md": 1, "date": "2026-06-13", "home": "Australia", "away": "Türkiye", "hs": 2, "as": 0 },
+        { "md": 2, "date": "2026-06-19", "home": "USA", "away": "Australia", "hs": 2, "as": 0 },
+        { "md": 2, "date": "2026-06-19", "home": "Türkiye", "away": "Paraguay", "hs": 0, "as": 1 },
+        { "md": 3, "date": "2026-06-25", "home": "Türkiye", "away": "USA", "hs": null, "as": null },
+        { "md": 3, "date": "2026-06-25", "home": "Paraguay", "away": "Australia", "hs": null, "as": null }
+      ]
+    },
+    "E": { "teams": ["Germany", "Ivory Coast", "Ecuador", "Curaçao"],
+      "matches": [
+        { "md": 1, "date": "2026-06-14", "home": "Germany", "away": "Curaçao", "hs": 7, "as": 1 },
+        { "md": 1, "date": "2026-06-14", "home": "Ivory Coast", "away": "Ecuador", "hs": 1, "as": 0 },
+        { "md": 2, "date": "2026-06-20", "home": "Germany", "away": "Ivory Coast", "hs": 2, "as": 1 },
+        { "md": 2, "date": "2026-06-20", "home": "Ecuador", "away": "Curaçao", "hs": 0, "as": 0 },
+        { "md": 3, "date": "2026-06-25", "home": "Ecuador", "away": "Germany", "hs": null, "as": null },
+        { "md": 3, "date": "2026-06-25", "home": "Curaçao", "away": "Ivory Coast", "hs": null, "as": null }
+      ]
+    },
+    "F": { "teams": ["Netherlands", "Sweden", "Japan", "Tunisia"],
+      "matches": [
+        { "md": 1, "date": "2026-06-14", "home": "Netherlands", "away": "Japan", "hs": 2, "as": 2 },
+        { "md": 1, "date": "2026-06-14", "home": "Sweden", "away": "Tunisia", "hs": 5, "as": 1 },
+        { "md": 2, "date": "2026-06-20", "home": "Netherlands", "away": "Sweden", "hs": 5, "as": 1 },
+        { "md": 2, "date": "2026-06-20", "home": "Tunisia", "away": "Japan", "hs": 0, "as": 4 },
+        { "md": 3, "date": "2026-06-25", "home": "Japan", "away": "Sweden", "hs": null, "as": null },
+        { "md": 3, "date": "2026-06-25", "home": "Tunisia", "away": "Netherlands", "hs": null, "as": null }
+      ]
+    },
+    "G": { "teams": ["Belgium", "Iran", "Egypt", "New Zealand"],
+      "matches": [
+        { "md": 1, "date": "2026-06-15", "home": "Belgium", "away": "Egypt", "hs": 1, "as": 1 },
+        { "md": 1, "date": "2026-06-15", "home": "Iran", "away": "New Zealand", "hs": 2, "as": 2 },
+        { "md": 2, "date": "2026-06-21", "home": "Belgium", "away": "Iran", "hs": 0, "as": 0 },
+        { "md": 2, "date": "2026-06-21", "home": "New Zealand", "away": "Egypt", "hs": 1, "as": 3 },
+        { "md": 3, "date": "2026-06-26", "home": "Egypt", "away": "Iran", "hs": null, "as": null },
+        { "md": 3, "date": "2026-06-26", "home": "New Zealand", "away": "Belgium", "hs": null, "as": null }
+      ]
+    },
+    "H": { "teams": ["Spain", "Saudi Arabia", "Uruguay", "Cabo Verde"],
+      "matches": [
+        { "md": 1, "date": "2026-06-15", "home": "Spain", "away": "Cabo Verde", "hs": 0, "as": 0 },
+        { "md": 1, "date": "2026-06-15", "home": "Saudi Arabia", "away": "Uruguay", "hs": 1, "as": 1 },
+        { "md": 2, "date": "2026-06-21", "home": "Spain", "away": "Saudi Arabia", "hs": 4, "as": 0 },
+        { "md": 2, "date": "2026-06-21", "home": "Uruguay", "away": "Cabo Verde", "hs": 2, "as": 2 },
+        { "md": 3, "date": "2026-06-26", "home": "Cabo Verde", "away": "Saudi Arabia", "hs": null, "as": null },
+        { "md": 3, "date": "2026-06-26", "home": "Uruguay", "away": "Spain", "hs": null, "as": null }
+      ]
+    },
+    "I": { "teams": ["France", "Norway", "Senegal", "Iraq"],
+      "matches": [
+        { "md": 1, "date": "2026-06-16", "home": "France", "away": "Senegal", "hs": 3, "as": 1 },
+        { "md": 1, "date": "2026-06-16", "home": "Iraq", "away": "Norway", "hs": 1, "as": 4 },
+        { "md": 2, "date": "2026-06-22", "home": "France", "away": "Iraq", "hs": null, "as": null },
+        { "md": 2, "date": "2026-06-22", "home": "Norway", "away": "Senegal", "hs": null, "as": null },
+        { "md": 3, "date": "2026-06-26", "home": "Norway", "away": "France", "hs": null, "as": null },
+        { "md": 3, "date": "2026-06-26", "home": "Senegal", "away": "Iraq", "hs": null, "as": null }
+      ]
+    },
+    "J": { "teams": ["Argentina", "Austria", "Jordan", "Algeria"],
+      "matches": [
+        { "md": 1, "date": "2026-06-16", "home": "Argentina", "away": "Algeria", "hs": 3, "as": 0 },
+        { "md": 1, "date": "2026-06-16", "home": "Austria", "away": "Jordan", "hs": 3, "as": 1 },
+        { "md": 2, "date": "2026-06-22", "home": "Argentina", "away": "Austria", "hs": 2, "as": 0 },
+        { "md": 2, "date": "2026-06-22", "home": "Jordan", "away": "Algeria", "hs": null, "as": null },
+        { "md": 3, "date": "2026-06-27", "home": "Algeria", "away": "Austria", "hs": null, "as": null },
+        { "md": 3, "date": "2026-06-27", "home": "Jordan", "away": "Argentina", "hs": null, "as": null }
+      ]
+    },
+    "K": { "teams": ["Portugal", "Colombia", "DR Congo", "Uzbekistan"],
+      "matches": [
+        { "md": 1, "date": "2026-06-17", "home": "Portugal", "away": "DR Congo", "hs": 1, "as": 1 },
+        { "md": 1, "date": "2026-06-17", "home": "Uzbekistan", "away": "Colombia", "hs": 1, "as": 3 },
+        { "md": 2, "date": "2026-06-23", "home": "Portugal", "away": "Uzbekistan", "hs": null, "as": null },
+        { "md": 2, "date": "2026-06-23", "home": "Colombia", "away": "DR Congo", "hs": null, "as": null },
+        { "md": 3, "date": "2026-06-27", "home": "Colombia", "away": "Portugal", "hs": null, "as": null },
+        { "md": 3, "date": "2026-06-27", "home": "DR Congo", "away": "Uzbekistan", "hs": null, "as": null }
+      ]
+    },
+    "L": { "teams": ["England", "Ghana", "Croatia", "Panama"],
+      "matches": [
+        { "md": 1, "date": "2026-06-17", "home": "England", "away": "Croatia", "hs": 4, "as": 2 },
+        { "md": 1, "date": "2026-06-17", "home": "Ghana", "away": "Panama", "hs": 1, "as": 0 },
+        { "md": 2, "date": "2026-06-23", "home": "England", "away": "Ghana", "hs": null, "as": null },
+        { "md": 2, "date": "2026-06-23", "home": "Panama", "away": "Croatia", "hs": null, "as": null },
+        { "md": 3, "date": "2026-06-27", "home": "Panama", "away": "England", "hs": null, "as": null },
+        { "md": 3, "date": "2026-06-27", "home": "Croatia", "away": "Ghana", "hs": null, "as": null }
+      ]
+    }
+  },
+  "knockout": {
+    "note": "Round of 32 pairings are filled in once group standings are final. Shown as TBD while the group stage is in progress.",
+    "rounds": [
+      { "name": "Round of 32", "dates": "2026-06-28 to 2026-07-03", "matches": 16 },
+      { "name": "Round of 16", "dates": "2026-07-04 to 2026-07-07", "matches": 8 },
+      { "name": "Quarter-finals", "dates": "2026-07-09 to 2026-07-11", "matches": 4 },
+      { "name": "Semi-finals", "dates": "2026-07-14 to 2026-07-15", "matches": 2 },
+      { "name": "Third place", "dates": "2026-07-18", "matches": 1 },
+      { "name": "Final", "dates": "2026-07-19", "matches": 1 }
+    ]
+  }
+}

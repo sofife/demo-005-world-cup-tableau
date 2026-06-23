@@ -12,3 +12,9 @@ __pycache__/
 .venv/
 venv/
 .pytest_cache/
+
+.vercel
+
+# Playwright MCP debug output (local verification only)
+.playwright-mcp/
+*-local-render.png
